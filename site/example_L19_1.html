@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding: 0;
+    background-color: royalblue;
+}
+
+#box {
+  background-color: salmon;
+  padding:10px 20px 10px 20px;
+  text-align: center;
+  border: 3px solid black;
+  margin: 5px;
+  height: 300px;
+  width:300px;
+  overflow: auto;
+}
+#content {
+  background-color: #90EE90; /*green*/
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center;">Box Model</h1>
+
+<div id="box">
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In my beginning was my end. In my beginning was my end. In my beginning was my end. In my beginning was my end. In my beginning was my end.In my beginning was my end.In my beginning was my end. In my beginning was my end.</div>
+</div>
+
+
+</body>
+</html>
